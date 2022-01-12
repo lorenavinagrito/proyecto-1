@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <tittle></tittle>
+    <link rel="stylesheet" href="trivia.css">
+</head>
+<body>
+    <body background="imagendetrivia.png"></body>
+    <div class="container">
+        <div class="card">
+            
+            <h3 class="pregunta_nombre">RIDDLEMIND</h3>
+            <p>Responde las siguientes preguntas: </p>
+            <center><div class="pregunta_contenido">
+                <fieldset>
+                <legend><center><p class="pregunta_enunciado" id="pregunta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptates quaerat voluptatem eveniet odit suscipit corrupti architecto dolores minus rerum atque reprehenderit tenetur quos obcaecati distinctio, iste nam eius veniam.</p></center></legend>
+                <center><p type="imagenes" id="imagenes">imagenes</p></center>
+                <div class="pregunta_alternativa">
+                <center><button type="button" id="op1" style="BORDER: rgb(241, 245, 7) 1px solid; FONT-SIZE: 26pt; FONT-FAMILY: Verdana;  width: 90%;
+                    padding: 12px; margin: 15px;  background:orange; cursor: pointer; transform: scale(1.05); height: 1; background-color: rgb(205, 241, 106);transition: delay 0.5em; box-shadow: 0 0 6px #fbff00 ">Opción 1</button></center>
+                <center><button type="button" id="op2" style="BORDER: rgb(241, 245, 7) 1px solid; FONT-SIZE: 26pt; FONT-FAMILY: Verdana;  width: 90%;
+                    padding: 12px; margin: 15px;  background:orange; cursor: pointer; transform: scale(1.05); height: 1; background-color:  rgb(205, 241, 106);transition: delay 0.5em; box-shadow: 0 0 6px #fbff00  ">Opción 2</button></center>
+                <center><button type="button" id="op3" style="BORDER: rgb(241, 245, 7) 1px solid; FONT-SIZE: 26pt; FONT-FAMILY: Verdana;  width: 90%;
+                    padding: 12px; margin: 15px;  background:orange; cursor: pointer; transform: scale(1.05);height: 1; background-color:  rgb(205, 241, 106) ;transition: delay 0.5em; box-shadow: 0 0 6px #fbff00 ">Opción 3</button></center>
+                <center><button type="button" id="op4"style="BORDER: rgb(241, 245, 7) 1px solid; FONT-SIZE: 26pt; FONT-FAMILY: Verdana;  width: 90%;
+                    padding: 12px; margin: 15px;  background:orange; cursor: pointer; transform: scale(1.05);height: 1; background-color: rgb(205, 241, 106) ;transition: delay 0.5em ; box-shadow: 0 0 6px #fbff00" >Opción 4</button></center>
+             
+              </div>
+            </div></fieldset></center>
+            
+        </div>
+        <div class="avance">
+            <progress id="barra-progreso" max="100" value="70"></progress>
+        </div>
+    </div>
+    <script src="trivia.js"></script>
+</body>
+</html>
+
+
